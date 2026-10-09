@@ -1,0 +1,5 @@
+C:/MCUXSDK/mcuxsdk/mcuxsdk/components/els_pkc/src/comps/mcuxClMemory/src/mcuxClMemory.c:72:35:mcuxClMemory_copy	80	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/components/els_pkc/src/comps/mcuxClMemory/src/mcuxClMemory.c:237:35:mcuxClMemory_copy_reversed	64	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/components/els_pkc/src/comps/mcuxClMemory/src/mcuxClMemory.c:350:35:mcuxClMemory_set	56	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/components/els_pkc/src/comps/mcuxClMemory/src/mcuxClMemory.c:411:35:mcuxClMemory_clear	48	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/components/els_pkc/src/comps/mcuxClMemory/src/mcuxClMemory.c:421:35:mcuxClMemory_xor	56	static

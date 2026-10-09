@@ -1,0 +1,6 @@
+C:/MCUXSDK/mcuxsdk/mcuxsdk/drivers/lpc_gpio/fsl_gpio.h:153:20:GPIO_PinWrite	24	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/examples/_boards/frdmrw612/lwip_examples/lwip_mqtt/freertos/hardware_init.c:22:6:BOARD_InitModuleClock	8	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/examples/_boards/frdmrw612/lwip_examples/lwip_mqtt/freertos/hardware_init.c:28:13:MDIO_Init	16	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/examples/_boards/frdmrw612/lwip_examples/lwip_mqtt/freertos/hardware_init.c:37:17:MDIO_Write	16	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/examples/_boards/frdmrw612/lwip_examples/lwip_mqtt/freertos/hardware_init.c:42:17:MDIO_Read	16	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/examples/_boards/frdmrw612/lwip_examples/lwip_mqtt/freertos/hardware_init.c:47:6:BOARD_InitHardware	16	static

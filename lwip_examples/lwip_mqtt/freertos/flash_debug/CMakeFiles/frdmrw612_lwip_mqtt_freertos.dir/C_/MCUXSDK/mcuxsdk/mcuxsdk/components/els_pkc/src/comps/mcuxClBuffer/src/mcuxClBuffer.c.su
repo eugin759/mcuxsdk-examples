@@ -1,0 +1,4 @@
+C:/MCUXSDK/mcuxsdk/mcuxsdk/components/els_pkc/src/comps/mcuxClBuffer/inc/internal/mcuxClBuffer_Internal_Pointer.h:102:66:mcuxClBuffer_read	56	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/components/els_pkc/src/comps/mcuxClBuffer/inc/internal/mcuxClBuffer_Internal_Pointer.h:211:66:mcuxClBuffer_write	56	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/components/els_pkc/src/comps/mcuxClBuffer/src/mcuxClBuffer.c:50:52:mcuxClBuffer_export	72	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/components/els_pkc/src/comps/mcuxClBuffer/src/mcuxClBuffer.c:60:52:mcuxClBuffer_import	72	static

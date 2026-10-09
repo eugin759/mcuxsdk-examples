@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "components/flash/mflash/frdmrw612",
+		"source" : "C:/MCUXSDK/mcuxsdk/mcuxsdk/components/flash/mflash/frdmrw612"
+	}
+}

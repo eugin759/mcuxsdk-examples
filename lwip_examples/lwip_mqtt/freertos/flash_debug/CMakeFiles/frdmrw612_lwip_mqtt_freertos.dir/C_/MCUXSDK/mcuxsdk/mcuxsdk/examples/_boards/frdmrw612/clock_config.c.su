@@ -1,0 +1,3 @@
+C:/MCUXSDK/mcuxsdk/mcuxsdk/examples/_boards/frdmrw612/clock_config.c:47:6:BOARD_InitBootClocks	8	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/examples/_boards/frdmrw612/clock_config.c:122:6:BOARD_BootClockRUN	8	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/examples/_boards/frdmrw612/clock_config.c:232:6:BOARD_BootClockLPR	8	static

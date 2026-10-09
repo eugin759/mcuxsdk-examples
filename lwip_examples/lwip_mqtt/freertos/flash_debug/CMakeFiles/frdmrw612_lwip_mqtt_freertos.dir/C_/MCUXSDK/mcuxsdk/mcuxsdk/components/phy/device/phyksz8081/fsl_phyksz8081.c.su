@@ -1,0 +1,10 @@
+C:/MCUXSDK/mcuxsdk/mcuxsdk/components/phy/device/phyksz8081/fsl_phyksz8081.c:71:10:PHY_KSZ8081_Init	32	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/components/phy/device/phyksz8081/fsl_phyksz8081.c:185:10:PHY_KSZ8081_Write	16	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/components/phy/device/phyksz8081/fsl_phyksz8081.c:190:10:PHY_KSZ8081_Read	24	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/components/phy/device/phyksz8081/fsl_phyksz8081.c:195:10:PHY_KSZ8081_GetAutoNegotiationStatus	24	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/components/phy/device/phyksz8081/fsl_phyksz8081.c:216:10:PHY_KSZ8081_GetLinkStatus	24	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/components/phy/device/phyksz8081/fsl_phyksz8081.c:241:10:PHY_KSZ8081_GetLinkSpeedDuplex	32	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/components/phy/device/phyksz8081/fsl_phyksz8081.c:282:10:PHY_KSZ8081_SetLinkSpeedDuplex	24	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/components/phy/device/phyksz8081/fsl_phyksz8081.c:316:10:PHY_KSZ8081_EnableLoopback	24	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/components/phy/device/phyksz8081/fsl_phyksz8081.c:385:10:PHY_KSZ8081_EnableLinkInterrupt	24	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/components/phy/device/phyksz8081/fsl_phyksz8081.c:431:10:PHY_KSZ8081_ClearInterrupt	24	static

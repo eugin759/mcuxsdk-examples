@@ -1,0 +1,4 @@
+C:\MCUXSDK\mcuxsdk\mcuxsdk\examples\lwip_examples\lwip_mqtt\freertos\flash_debug\FreeRTOSConfig_Gen.h
+C:\MCUXSDK\mcuxsdk\mcuxsdk\examples\lwip_examples\lwip_mqtt\freertos\flash_debug\fsl_debug_console_conf.h
+C:\MCUXSDK\mcuxsdk\mcuxsdk\examples\lwip_examples\lwip_mqtt\freertos\flash_debug\lwipopts_gen.h
+C:\MCUXSDK\mcuxsdk\mcuxsdk\examples\lwip_examples\lwip_mqtt\freertos\flash_debug\mcux_config.h

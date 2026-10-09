@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "examples/_boards/frdmrw612",
+		"source" : "C:/MCUXSDK/mcuxsdk/mcuxsdk/examples/_boards/frdmrw612"
+	}
+}

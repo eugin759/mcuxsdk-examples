@@ -1,0 +1,4 @@
+C:/MCUXSDK/mcuxsdk/mcuxsdk/devices/Wireless/RW/RW612/drivers/fsl_io_mux.h:1634:20:IO_MUX_SetPinMux	32	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/devices/Wireless/RW/RW612/drivers/fsl_io_mux.h:1744:20:IO_MUX_SetPinConfig	40	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/examples/_boards/frdmrw612/lwip_examples/lwip_mqtt/freertos/pin_mux.c:36:6:BOARD_InitBootPins	8	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/examples/_boards/frdmrw612/lwip_examples/lwip_mqtt/freertos/pin_mux.c:67:6:BOARD_InitPins	40	static

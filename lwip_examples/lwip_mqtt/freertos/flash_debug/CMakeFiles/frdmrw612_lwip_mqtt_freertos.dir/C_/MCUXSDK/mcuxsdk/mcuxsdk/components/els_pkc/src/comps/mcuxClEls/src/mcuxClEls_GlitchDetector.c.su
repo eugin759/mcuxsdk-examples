@@ -1,0 +1,9 @@
+C:/MCUXSDK/mcuxsdk/mcuxsdk/components/els_pkc/src/comps/mcuxClEls/inc/internal/mcuxClEls_Internal.h:90:20:mcuxClEls_setInput0_fixedSize	16	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/components/els_pkc/src/comps/mcuxClEls/inc/internal/mcuxClEls_Internal.h:136:20:mcuxClEls_setOutput_fixedSize	16	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/components/els_pkc/src/comps/mcuxClEls/inc/internal/mcuxClEls_Internal.h:169:20:mcuxClEls_startCommand	32	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/components/els_pkc/src/comps/mcuxClEls/inc/internal/mcuxClEls_Internal.h:183:24:mcuxClEls_getSfrField	24	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/components/els_pkc/src/comps/mcuxClEls/inc/internal/mcuxClEls_Internal.h:202:20:mcuxClEls_isBusy	4	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/components/els_pkc/src/comps/mcuxClEls/src/mcuxClEls_GlitchDetector.c:46:63:mcuxClEls_GlitchDetector_LoadConfig_Async	48	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/components/els_pkc/src/comps/mcuxClEls/src/mcuxClEls_GlitchDetector.c:64:63:mcuxClEls_GlitchDetector_Trim_Async	48	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/components/els_pkc/src/comps/mcuxClEls/src/mcuxClEls_GlitchDetector.c:83:63:mcuxClEls_GlitchDetector_GetEventCounter	40	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/components/els_pkc/src/comps/mcuxClEls/src/mcuxClEls_GlitchDetector.c:101:63:mcuxClEls_GlitchDetector_ResetEventCounter	32	static

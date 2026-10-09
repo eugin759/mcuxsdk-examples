@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "middleware/soem",
+		"source" : "C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/soem"
+	}
+}

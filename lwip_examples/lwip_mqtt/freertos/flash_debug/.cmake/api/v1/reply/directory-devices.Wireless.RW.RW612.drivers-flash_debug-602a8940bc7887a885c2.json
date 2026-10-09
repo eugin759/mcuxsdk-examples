@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "devices/Wireless/RW/RW612/drivers",
+		"source" : "C:/MCUXSDK/mcuxsdk/mcuxsdk/devices/Wireless/RW/RW612/drivers"
+	}
+}

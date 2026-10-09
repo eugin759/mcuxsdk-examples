@@ -15,6 +15,9 @@
 #include "fsl_phy.h"
 #include "mqtt_freertos.h"
 
+#include "fsl_gpio.h"
+#include "fsl_io_mux.h"
+
 #include "lwip/opt.h"
 #include "lwip/api.h"
 #include "lwip/dhcp.h"
@@ -108,6 +111,23 @@ static void stack_init(void *arg)
     vTaskDelete(NULL);
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*!
  * @brief Main function
  */
@@ -115,6 +135,16 @@ int main(void)
 {
     BOARD_InitHardware();
 
+
+    /* --- INICIO DE AGREGADO PARA HARDWARE --- */
+    /* Habilitar pines físicos en el MUX */
+    IO_MUX_SetPinMux(IO_MUX_GPIO11); /* Botón */
+    IO_MUX_SetPinMux(IO_MUX_GPIO1);  /* LED */
+    
+    /* Inicializar direcciones de GPIO */
+    GPIO_PinInit(BOARD_SW2_GPIO, BOARD_SW2_GPIO_PORT, BOARD_SW2_GPIO_PIN, &(gpio_pin_config_t){kGPIO_DigitalInput, 0U});
+    GPIO_PinInit(GPIO, 0U, 1U, &(gpio_pin_config_t){kGPIO_DigitalOutput, 1U}); /* Se manda 1U para que inicie apagado */
+    /* --- FIN DE AGREGADO --- */
     /* Initialize lwIP from thread */
     if (sys_thread_new("main", stack_init, NULL, INIT_THREAD_STACKSIZE, INIT_THREAD_PRIO) == NULL)
     {

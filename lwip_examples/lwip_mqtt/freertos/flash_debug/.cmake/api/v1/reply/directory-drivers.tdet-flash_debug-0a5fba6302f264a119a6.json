@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "drivers/tdet",
+		"source" : "C:/MCUXSDK/mcuxsdk/mcuxsdk/drivers/tdet"
+	}
+}
