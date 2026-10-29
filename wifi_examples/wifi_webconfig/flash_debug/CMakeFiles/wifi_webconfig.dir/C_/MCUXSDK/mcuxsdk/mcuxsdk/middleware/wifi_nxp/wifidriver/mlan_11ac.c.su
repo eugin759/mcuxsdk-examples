@@ -1,0 +1,11 @@
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/incl/mlan_main.h:3418:21:wifi_get_cmd_seq_num	16	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/mlan_11ac.c:46:6:wlan_get_center_freq_idx	32	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/mlan_11ac.c:158:13:wlan_get_nss_vht_mcs	24	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/mlan_11ac.c:179:13:wlan_get_nss_num_vht_mcs	24	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/mlan_11ac.c:202:13:wlan_fill_cap_info	32	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/mlan_11ac.c:239:13:wlan_11ac_ioctl_vhtcfg	64	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/mlan_11ac.c:631:7:wlan_convert_mcsmap_to_maxrate	240	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/mlan_11ac.c:771:6:wlan_fill_vht_cap_tlv	48	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/mlan_11ac.c:897:5:wlan_cmd_append_11ac_tlv	48	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/mlan_11ac.c:1058:13:wlan_cmd_11ac_cfg	32	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/mlan_11ac.c:1159:6:wlan_11ac_bandconfig_allowed	16	static

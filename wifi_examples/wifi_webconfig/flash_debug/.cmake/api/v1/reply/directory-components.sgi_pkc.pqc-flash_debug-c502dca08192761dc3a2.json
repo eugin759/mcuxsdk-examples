@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "components/sgi_pkc/pqc",
+		"source" : "C:/MCUXSDK/mcuxsdk/mcuxsdk/components/sgi_pkc/pqc"
+	}
+}

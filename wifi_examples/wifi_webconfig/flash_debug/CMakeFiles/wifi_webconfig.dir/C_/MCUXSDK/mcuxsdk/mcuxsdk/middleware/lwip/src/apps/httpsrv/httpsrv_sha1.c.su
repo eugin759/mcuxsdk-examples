@@ -1,0 +1,4 @@
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/lwip/src/apps/httpsrv/httpsrv_sha1.c:59:6:SHA1_Transform	40	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/lwip/src/apps/httpsrv/httpsrv_sha1.c:178:6:SHA1_Init	16	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/lwip/src/apps/httpsrv/httpsrv_sha1.c:190:6:SHA1_Update	32	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/lwip/src/apps/httpsrv/httpsrv_sha1.c:218:6:SHA1_Final	32	static

@@ -1,0 +1,2 @@
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/lwip/src/netif/ethernet.c:82:1:ethernet_input	24	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/lwip/src/netif/ethernet.c:271:1:ethernet_output	32	static

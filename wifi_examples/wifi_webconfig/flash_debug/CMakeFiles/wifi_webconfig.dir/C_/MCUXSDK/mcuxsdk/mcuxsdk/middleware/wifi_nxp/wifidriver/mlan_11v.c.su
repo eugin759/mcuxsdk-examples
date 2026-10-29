@@ -1,0 +1,5 @@
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/mlan_11v.c:36:13:wlan_wnm_parse_neighbor_report	32	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/mlan_11v.c:85:6:wlan_send_mgmt_wnm_btm_resp	48	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/mlan_11v.c:158:13:wlan_11v_find_in_channels	24	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/mlan_11v.c:181:6:wlan_process_mgmt_wnm_btm_req	80	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/mlan_11v.c:348:5:wlan_send_mgmt_bss_trans_query	48	static

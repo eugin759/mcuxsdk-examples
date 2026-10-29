@@ -1,0 +1,14 @@
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/incl/mlan_main.h:3418:21:wifi_get_cmd_seq_num	16	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/mlan_11ax.c:49:6:wlan_check_ap_11ax_twt_supported	16	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/mlan_11ax.c:78:6:wlan_check_11ax_twt_supported	32	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/mlan_11ax.c:132:7:wlan_fill_he_cap_tlv	32	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/mlan_11ax.c:182:5:wlan_cmd_append_11ax_tlv	32	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/mlan_11ax.c:234:6:wlan_update_11ax_cap	32	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/mlan_11ax.c:337:7:wlan_11ax_bandconfig_allowed	16	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/mlan_11ax.c:380:13:wlan_11ax_ioctl_cmd	48	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/mlan_11ax.c:429:13:wlan_11ax_cfg_ioctl	24	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/mlan_11ax.c:460:5:wlan_cmd_11ax_cfg	40	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/mlan_11ax.c:503:13:wlan_ret_11ax_cfg	48	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/mlan_11ax.c:581:13:wlan_cmd_twt_cfg	56	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/mlan_11ax.c:668:13:wlan_cmd_11ax_cmd	48	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/mlan_11ax.c:718:13:wlan_ret_11ax_cmd	64	static

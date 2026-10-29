@@ -1,0 +1,6 @@
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/lwip/src/apps/httpsrv/httpsrv_utf8.h:30:20:utf8_check_1	16	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/lwip/src/apps/httpsrv/httpsrv_utf8.h:40:20:utf8_check_2	16	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/lwip/src/apps/httpsrv/httpsrv_utf8.h:50:20:utf8_check_3	16	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/lwip/src/apps/httpsrv/httpsrv_utf8.h:66:20:utf8_check_4	16	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/lwip/src/apps/httpsrv/httpsrv_utf8.c:23:6:utf8_is_valid	40	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/lwip/src/apps/httpsrv/httpsrv_utf8.c:87:20:utf8_check_boundary	24	static

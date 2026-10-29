@@ -1,0 +1,12 @@
+C:/MCUXSDK/mcuxsdk/mcuxsdk/drivers/imu/fsl_imu.h:391:20:IMU_LockSendFifo	16	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/drivers/imu/fsl_imu.h:421:20:IMU_SetSendFifoWaterMark	24	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/drivers/imu/fsl_imu.h:448:24:IMU_GetSendFifoEmptySpace	16	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/drivers/imu/fsl_imu.c:42:10:IMU_Init	24	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/drivers/imu/fsl_imu.c:88:6:IMU_Deinit	16	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/drivers/imu/fsl_imu.c:116:9:IMU_SendMsgsBlocking	40	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/drivers/imu/fsl_imu.c:207:9:IMU_TrySendMsgs	40	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/drivers/imu/fsl_imu.c:291:9:IMU_TryReceiveMsgs	48	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/drivers/imu/fsl_imu.c:362:9:IMU_ReceiveMsgsBlocking	48	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/drivers/imu/fsl_imu.c:430:9:IMU_SendMsgPtrBlocking	24	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/drivers/imu/fsl_imu.c:485:6:IMU_FlushSendFifo	16	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/drivers/imu/fsl_imu.c:497:10:IMU_GetStatusFlags	24	static

@@ -1,0 +1,5 @@
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/wifi-mem.c:25:7:wifi_mem_malloc_cmdrespbuf	4	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/wifi-mem.c:32:7:wifi_malloc_eventbuf	24	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/wifi-mem.c:52:6:wifi_free_eventbuf	16	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/wifi-mem.c:62:13:wrapper_moal_malloc	24	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/wifi-mem.c:83:13:wrapper_moal_mfree	16	static

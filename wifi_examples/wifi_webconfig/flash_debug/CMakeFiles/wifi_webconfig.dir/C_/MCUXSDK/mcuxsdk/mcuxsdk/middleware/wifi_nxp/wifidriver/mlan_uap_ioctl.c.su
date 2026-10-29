@@ -1,0 +1,2 @@
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/mlan_uap_ioctl.c:81:13:wlan_uap_bss_ioctl_action_chan_switch	40	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/mlan_uap_ioctl.c:110:13:wlan_ops_uap_ioctl	40	static

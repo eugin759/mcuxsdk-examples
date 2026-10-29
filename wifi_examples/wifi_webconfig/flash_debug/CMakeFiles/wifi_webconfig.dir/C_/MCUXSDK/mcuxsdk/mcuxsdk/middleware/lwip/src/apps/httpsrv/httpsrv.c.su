@@ -1,0 +1,5 @@
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/lwip/src/apps/httpsrv/httpsrv.c:31:10:HTTPSRV_init	32	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/lwip/src/apps/httpsrv/httpsrv.c:77:6:HTTPSRV_release	24	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/lwip/src/apps/httpsrv/httpsrv.c:111:10:HTTPSRV_cgi_write	40	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/lwip/src/apps/httpsrv/httpsrv.c:198:10:HTTPSRV_cgi_read	48	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/lwip/src/apps/httpsrv/httpsrv.c:251:10:HTTPSRV_ssi_write	32	static

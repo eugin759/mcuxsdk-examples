@@ -1,0 +1,11 @@
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/incl/port/net/wm_net.h:298:19:net_get_sock_error	24	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/dhcpd/dns-server.c:37:13:format_qname	32	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/dhcpd/dns-server.c:75:21:make_answer_rr	56	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/dhcpd/dns-server.c:150:14:parse_questions	56	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/dhcpd/dns-server.c:235:12:process_dns_message	48	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/dhcpd/dns-server.c:316:6:dhcp_enable_dns_server	32	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/dhcpd/dns-server.c:349:5:dns_server_init	24	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/dhcpd/dns-server.c:368:6:dns_process_packet	56	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/dhcpd/dns-server.c:387:10:dns_get_nameserver	16	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/dhcpd/dns-server.c:396:5:dns_get_maxsock	24	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/dhcpd/dns-server.c:416:6:dns_free_allocations	16	static

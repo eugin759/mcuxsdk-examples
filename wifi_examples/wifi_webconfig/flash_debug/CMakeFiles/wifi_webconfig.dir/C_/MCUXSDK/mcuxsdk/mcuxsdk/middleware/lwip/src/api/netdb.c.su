@@ -1,0 +1,4 @@
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/lwip/src/api/netdb.c:93:1:lwip_gethostbyname	56	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/lwip/src/api/netdb.c:167:1:lwip_gethostbyname_r	48	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/lwip/src/api/netdb.c:241:1:lwip_freeaddrinfo	24	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/lwip/src/api/netdb.c:274:1:lwip_getaddrinfo	88	static

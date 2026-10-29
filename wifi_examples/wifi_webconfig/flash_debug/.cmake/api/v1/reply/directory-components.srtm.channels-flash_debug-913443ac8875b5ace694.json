@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "components/srtm/channels",
+		"source" : "C:/MCUXSDK/mcuxsdk/mcuxsdk/components/srtm/channels"
+	}
+}

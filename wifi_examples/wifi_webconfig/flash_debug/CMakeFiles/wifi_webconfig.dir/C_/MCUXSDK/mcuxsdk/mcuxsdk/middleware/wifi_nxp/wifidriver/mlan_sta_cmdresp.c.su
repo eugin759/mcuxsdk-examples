@@ -1,0 +1,9 @@
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/mlan_sta_cmdresp.c:354:20:wlan_ret_802_11_snmp_mib	40	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/mlan_sta_cmdresp.c:459:20:wlan_ret_get_log	32	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/mlan_sta_cmdresp.c:499:20:wlan_get_power_level	40	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/mlan_sta_cmdresp.c:555:20:wlan_ret_tx_power_cfg	72	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/mlan_sta_cmdresp.c:679:20:wlan_ret_802_11_sleep_period	40	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/mlan_sta_cmdresp.c:724:13:wlan_ret_802_11_deauthenticate	24	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/mlan_sta_cmdresp.c:746:20:wlan_ret_802_11_rf_channel	24	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/mlan_sta_cmdresp.c:769:20:wlan_ret_subscribe_event	24	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/mlan_sta_cmdresp.c:799:13:wlan_ops_sta_process_cmdresp	40	static

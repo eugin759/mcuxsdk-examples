@@ -1,0 +1,5 @@
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/incl/mlan_util.h:56:22:util_init_list	16	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/mlan_11h.c:90:6:wlan_11h_init	32	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/mlan_11h.c:143:6:wlan_11h_priv_init	24	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/mlan_11h.c:176:8:wlan_11h_radar_detect_required	24	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/mlan_11h.c:227:13:wlan_get_non_dfs_chan	40	static

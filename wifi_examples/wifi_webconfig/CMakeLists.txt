@@ -10,6 +10,7 @@ include(${SdkRootDirPath}/cmake/extension/mcux.cmake)
 project(wifi_webconfig LANGUAGES C CXX ASM PROJECT_BOARD_PORT_PATH ${board_root}/${board}/wifi_examples/wifi_webconfig)
 
 include(${SdkRootDirPath}/CMakeLists.txt)
+include(${SdkRootDirPath}/examples/lwip_examples/mqtt_common/CMakeLists.txt)
 mcux_add_source(
     BASE_PATH ${SdkRootDirPath}
     SOURCES 

@@ -1,0 +1,7 @@
+C:/MCUXSDK/mcuxsdk/mcuxsdk/components/conn_fwloader/fsl_loader.c:31:10:sb3_fw_download	24	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/components/conn_fwloader/fsl_loader.c:39:10:sb3_fw_reset	24	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/components/conn_fwloader/fsl_loader.c:47:6:power_on_device	16	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/components/conn_fwloader/fsl_loader.c:55:6:power_off_device	16	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/components/conn_fwloader/fsl_loader.c:63:9:cau_temperature_write_to_firmware	8	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/components/conn_fwloader/fsl_loader.c:71:9:cau_get_temperature	8	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/components/conn_fwloader/fsl_loader.c:79:6:cau_temperature_enable	8	static

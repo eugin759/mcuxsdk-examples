@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "middleware/canopennode",
+		"source" : "C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/canopennode"
+	}
+}

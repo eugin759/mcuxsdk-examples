@@ -1,0 +1,8 @@
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/incl/wm_utils.h:279:20:dump_hex	24	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wlcmgr/wlan_test_csi.c:82:5:csi_data_recv_user	32	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wlcmgr/wlan_test_csi.c:129:12:fast_consume_queue	32	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wlcmgr/wlan_test_csi.c:167:12:check_queue_overflow	16	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wlcmgr/wlan_test_csi.c:203:13:csi_user_process	16	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wlcmgr/wlan_test_csi.c:222:13:csi_process_task	32	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wlcmgr/wlan_test_csi.c:308:5:csi_create_process_task	40	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wlcmgr/wlan_test_csi.c:370:5:csi_destroy_process_task	32	static

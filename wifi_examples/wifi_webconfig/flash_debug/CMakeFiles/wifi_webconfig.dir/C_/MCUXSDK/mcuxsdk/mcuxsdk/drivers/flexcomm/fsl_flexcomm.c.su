@@ -1,0 +1,11 @@
+C:/MCUXSDK/mcuxsdk/mcuxsdk/drivers/flexcomm/fsl_flexcomm.c:61:13:FLEXCOMM_PeripheralIsPresent	16	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/drivers/flexcomm/fsl_flexcomm.c:88:10:FLEXCOMM_GetInstance	24	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/drivers/flexcomm/fsl_flexcomm.c:105:17:FLEXCOMM_SetPeriph	24	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/drivers/flexcomm/fsl_flexcomm.c:134:10:FLEXCOMM_Init	24	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/drivers/flexcomm/fsl_flexcomm.c:154:6:FLEXCOMM_SetIRQHandler	32	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/drivers/flexcomm/fsl_flexcomm.c:168:6:FLEXCOMM_DriverIRQHandler	16	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/drivers/flexcomm/fsl_flexcomm.c:181:6:FLEXCOMM0_DriverIRQHandler	16	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/drivers/flexcomm/fsl_flexcomm.c:195:6:FLEXCOMM1_DriverIRQHandler	16	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/drivers/flexcomm/fsl_flexcomm.c:209:6:FLEXCOMM2_DriverIRQHandler	16	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/drivers/flexcomm/fsl_flexcomm.c:223:6:FLEXCOMM3_DriverIRQHandler	16	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/drivers/flexcomm/fsl_flexcomm.c:378:6:FLEXCOMM14_DriverIRQHandler	16	static

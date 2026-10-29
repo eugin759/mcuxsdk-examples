@@ -1,0 +1,6 @@
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/incl/mlan_main.h:3148:22:wlan_get_priv_by_id	32	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/incl/mlan_main.h:3175:22:wlan_get_priv	24	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/incl/port/net/wm_net.h:398:20:net_stack_buffer_free	16	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/incl/port/net/wm_net.h:430:21:net_stack_buffer_get_payload	16	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/mlan_txrx.c:54:13:wlan_handle_rx_packet	32	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/mlan_txrx.c:98:13:wlan_process_uap_rx_packet	48	static

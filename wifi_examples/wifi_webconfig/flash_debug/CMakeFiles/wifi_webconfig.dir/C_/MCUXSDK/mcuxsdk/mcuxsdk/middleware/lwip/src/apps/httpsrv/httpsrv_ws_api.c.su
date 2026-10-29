@@ -1,0 +1,2 @@
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/lwip/src/apps/httpsrv/httpsrv_ws_api.c:21:9:WS_send	32	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/lwip/src/apps/httpsrv/httpsrv_ws_api.c:61:9:WS_close	32	static

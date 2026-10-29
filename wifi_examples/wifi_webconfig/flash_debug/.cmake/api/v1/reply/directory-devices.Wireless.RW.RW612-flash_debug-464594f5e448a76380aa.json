@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "devices/Wireless/RW/RW612",
+		"source" : "C:/MCUXSDK/mcuxsdk/mcuxsdk/devices/Wireless/RW/RW612"
+	}
+}

@@ -1,0 +1,9 @@
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/mlan_uap_cmdevent.c:36:20:wlan_uap_cmd_ap_config	128	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/mlan_uap_cmdevent.c:375:20:wlan_uap_cmd_sys_configure	88	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/mlan_uap_cmdevent.c:565:20:wlan_uap_cmd_snmp_mib	72	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/mlan_uap_cmdevent.c:691:20:wlan_uap_cmd_sta_deauth	32	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/mlan_uap_cmdevent.c:920:6:wlan_check_sta_capability	72	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/mlan_uap_cmdevent.c:992:13:wlan_check_11B_support_rates	24	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/mlan_uap_cmdevent.c:1018:20:wlan_uap_cmd_add_station	88	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/mlan_uap_cmdevent.c:1275:20:wlan_uap_cmd_bss_start	24	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/mlan_uap_cmdevent.c:1314:13:wlan_ops_uap_prepare_cmd	48	static

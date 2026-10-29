@@ -19,8 +19,11 @@
 #include "http_server.h"
 
 #include "fsl_debug_console.h"
+#include "fsl_gpio.h"
+#include "fsl_io_mux.h"
 #include "webconfig.h"
 #include "cred_flash_storage.h"
+#include "mqtt_freertos.h"
 
 #include <stdio.h>
 
@@ -73,6 +76,7 @@ const HTTPSRV_CGI_LINK_STRUCT cgi_lnk_tbl[] = {
  * Variables
  ******************************************************************************/
 struct board_state_variables g_BoardState;
+static bool mqtt_started;
 
 /*******************************************************************************
  * Code
@@ -605,6 +609,19 @@ static uint32_t SetBoardToClient()
             char ip[16];
             WPL_GetIP(ip, 1);
             PRINTF(" Now join that network on your device and connect to this IP: %s\r\n", ip);
+            if (!mqtt_started)
+            {
+                if (netif_default == NULL)
+                {
+                    PRINTF("[!] MQTT client cannot start: default network interface is unavailable\r\n");
+                }
+                else
+                {
+                    PRINTF("[i] Starting MQTT client...\r\n");
+                    mqtt_freertos_run_thread(netif_default);
+                    mqtt_started = true;
+                }
+            }
         }
     }
     return 0;
@@ -639,6 +656,13 @@ int main(void)
 {
     /* Initialize the hardware */
     BOARD_InitHardware();
+
+    GPIO_PortInit(GPIO, 0U);
+    GPIO_PortInit(GPIO, 1U);
+    IO_MUX_SetPinMux(IO_MUX_GPIO1);
+    GPIO_PinInit(BOARD_SW2_GPIO, BOARD_SW2_GPIO_PORT, BOARD_SW2_GPIO_PIN,
+                 &(gpio_pin_config_t){kGPIO_DigitalInput, 0U});
+    GPIO_PinInit(GPIO, 0U, 1U, &(gpio_pin_config_t){kGPIO_DigitalOutput, 1U});
 
     /* Create the main Task */
     if (xTaskCreate(main_task, "main_task", 2048, NULL, configMAX_PRIORITIES - 4, &g_BoardState.mainTask) != pdPASS)

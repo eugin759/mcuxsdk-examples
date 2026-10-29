@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "drivers/jpegdec",
+		"source" : "C:/MCUXSDK/mcuxsdk/mcuxsdk/drivers/jpegdec"
+	}
+}

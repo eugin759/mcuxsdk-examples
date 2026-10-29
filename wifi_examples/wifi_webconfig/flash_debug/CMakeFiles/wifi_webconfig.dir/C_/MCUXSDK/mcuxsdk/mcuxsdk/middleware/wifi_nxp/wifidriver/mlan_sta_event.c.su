@@ -1,0 +1,2 @@
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/mlan_sta_event.c:36:8:wlan_reset_connect_state	16	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/mlan_sta_event.c:123:8:wlan_handle_disconnect_event	16	static

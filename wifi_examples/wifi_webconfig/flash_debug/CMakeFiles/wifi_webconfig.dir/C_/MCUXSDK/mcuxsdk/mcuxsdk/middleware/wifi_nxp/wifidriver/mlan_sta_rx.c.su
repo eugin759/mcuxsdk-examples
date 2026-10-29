@@ -1,0 +1,3 @@
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/incl/mlan_main.h:3029:13:queuing_ra_based	16	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/mlan_sta_rx.c:113:13:wlan_process_rx_packet	32	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/mlan_sta_rx.c:179:13:wlan_ops_process_rx_packet	72	static

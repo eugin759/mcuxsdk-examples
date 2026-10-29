@@ -1,0 +1,4 @@
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/mlan_action.c:44:20:wlan_process_mgmt_radio_measurement_action	48	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/mlan_action.c:105:20:wlan_process_mgmt_wnm_action	48	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/mlan_action.c:135:20:wlan_process_mgmt_unprotect_wnm_action	40	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/mlan_action.c:167:13:wlan_process_mgmt_action	48	static

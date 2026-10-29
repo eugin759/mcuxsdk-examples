@@ -1,0 +1,12 @@
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/lwip/src/apps/httpsrv/httpsrv_task.c:41:6:httpsrv_server_task	72	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/lwip/src/apps/httpsrv/httpsrv_task.c:205:13:httpsrv_session_task	32	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/lwip/src/apps/httpsrv/httpsrv_task.c:239:32:httpsrv_ses_alloc	24	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/lwip/src/apps/httpsrv/httpsrv_task.c:306:13:httpsrv_ses_free	16	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/lwip/src/apps/httpsrv/httpsrv_task.c:346:12:httpsrv_ses_init	32	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/lwip/src/apps/httpsrv/httpsrv_task.c:379:13:httpsrv_ses_close	16	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/lwip/src/apps/httpsrv/httpsrv_task.c:422:6:httpsrv_http_process	40	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/lwip/src/apps/httpsrv/httpsrv_task.c:530:12:httpsrv_req_read	56	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/lwip/src/apps/httpsrv/httpsrv_task.c:668:26:httpsrv_req_do	48	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/lwip/src/apps/httpsrv/httpsrv_task.c:782:26:httpsrv_response	24	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/lwip/src/apps/httpsrv/httpsrv_task.c:838:20:httpsrv_ses_set_state	16	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/lwip/src/apps/httpsrv/httpsrv_task.c:862:13:httpsrv_plugin_run	24	static

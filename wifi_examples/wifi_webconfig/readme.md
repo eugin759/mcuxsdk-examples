@@ -13,6 +13,8 @@ A simple LED visualization is implemented. The board LED will be on if the devic
 
 The site allows the user to clear the credentials from the flash memory and reset the board to AP mode. If connection fails, user can also set device to AP mode through serial connection.
 
+After the device successfully joins a Wi-Fi network in client mode, the demo starts the MQTT client used by the `wifi_mqtt` example. It uses the Wi-Fi credentials configured by this web interface, then connects to the broker and applies the example's existing topic subscription, publication, button, and LED behavior. Broker, port, and MQTT topics are configured in `examples/lwip_examples/mqtt_common/mqtt_freertos.c`. The example's default broker uses unencrypted MQTT; use it for testing only, not for sensitive or production traffic.
+
 The source files for the web interface are located in the webui directory. Use the `<path_to_sdk>/middleware/lwip/src/apps/httpsrv/mkfs/mkfs.pl webui` Perl script in order to convert the webui files into the httpsrv_fs_data.c which is used in order to flash the static files onto the board. Make sure the mkfsl.pl script is executed from the same directory where the file httpsrv_fs_data.c and the directory webui are.
 
 Note that Microsoft Internet Explorer is not supported by this webconfig example.

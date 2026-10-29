@@ -1,0 +1,6 @@
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/mlan_mbo.c:48:7:wlan_add_mbo_oui	16	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/mlan_mbo.c:61:7:wlan_add_mbo_oui_type	16	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/mlan_mbo.c:74:7:wlan_add_mbo_attr_id	16	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/mlan_mbo.c:87:7:wlan_add_mbo_cellular_cap	16	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/mlan_mbo.c:102:7:wlan_add_mbo_prefer_ch	32	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/mlan_mbo.c:126:6:wlan_send_mgmt_wnm_notification	56	static

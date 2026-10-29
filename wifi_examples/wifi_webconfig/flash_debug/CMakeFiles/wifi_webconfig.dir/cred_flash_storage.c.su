@@ -1,0 +1,5 @@
+C:/MCUXSDK/mcuxsdk/mcuxsdk/examples/wifi_examples/wifi_webconfig/cred_flash_storage.c:17:17:save_file	24	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/examples/wifi_examples/wifi_webconfig/cred_flash_storage.c:39:10:init_flash_storage	32	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/examples/wifi_examples/wifi_webconfig/cred_flash_storage.c:53:10:save_wifi_credentials	208	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/examples/wifi_examples/wifi_webconfig/cred_flash_storage.c:101:10:get_saved_wifi_credentials	48	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/examples/wifi_examples/wifi_webconfig/cred_flash_storage.c:159:10:reset_saved_wifi_credentials	16	static

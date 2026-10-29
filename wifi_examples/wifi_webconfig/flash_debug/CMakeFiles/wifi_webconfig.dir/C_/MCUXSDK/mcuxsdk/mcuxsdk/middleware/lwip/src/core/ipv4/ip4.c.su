@@ -1,0 +1,9 @@
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/lwip/src/core/ipv4/ip4.c:118:1:ip4_set_default_multicast_netif	16	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/lwip/src/core/ipv4/ip4.c:153:1:ip4_route	24	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/lwip/src/core/ipv4/ip4.c:409:1:ip4_input_accept	16	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/lwip/src/core/ipv4/ip4.c:461:1:ip4_input	48	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/lwip/src/core/ipv4/ip4.c:822:1:ip4_output_if	48	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/lwip/src/core/ipv4/ip4.c:837:1:ip4_output_if_opt	56	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/lwip/src/core/ipv4/ip4.c:862:1:ip4_output_if_src	48	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/lwip/src/core/ipv4/ip4.c:875:1:ip4_output_if_opt_src	48	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/lwip/src/core/ipv4/ip4.c:1063:1:ip4_output	48	static

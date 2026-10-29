@@ -1,0 +1,29 @@
+# Available runners configured by board.cmake.
+runners:
+- linkserver
+- jlink
+
+# Default flash runner if --runner is not given.
+flash-runner: linkserver
+
+# Default debug runner if --runner is not given.
+debug-runner: linkserver
+
+# Common runner configuration values.
+config:
+  board_dir: C:/MCUXSDK/mcuxsdk/mcuxsdk/examples/_boards/frdmrw612
+  # Build outputs:
+  bin_file: wifi_webconfig.bin
+  elf_file: wifi_webconfig.elf
+  hex_file: wifi_webconfig.hex
+  # Host tools:
+  gdb: C:/Users/eugen/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/arm-none-eabi-gdb.exe
+
+# Runner specific arguments
+args:
+  linkserver:
+    - --dt-flash=y
+    - --device=RW612:FRDM-RW612
+  jlink:
+    - --dt-flash=y
+    - --device=RW612

@@ -1,0 +1,13 @@
+C:/MCUXSDK/mcuxsdk/mcuxsdk/drivers/cache/cache64/fsl_cache.c:65:10:CACHE64_GetInstance	24	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/drivers/cache/cache64/fsl_cache.c:89:10:CACHE64_GetInstanceByAddr	40	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/drivers/cache/cache64/fsl_cache.c:125:10:CACHE64_Init	32	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/drivers/cache/cache64/fsl_cache.c:165:6:CACHE64_GetDefaultConfig	24	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/drivers/cache/cache64/fsl_cache.c:180:6:CACHE64_EnableCache	16	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/drivers/cache/cache64/fsl_cache.c:203:6:CACHE64_DisableCache	16	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/drivers/cache/cache64/fsl_cache.c:226:6:CACHE64_InvalidateCache	16	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/drivers/cache/cache64/fsl_cache.c:250:6:CACHE64_InvalidateCacheByRange	56	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/drivers/cache/cache64/fsl_cache.c:313:6:CACHE64_CleanCache	16	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/drivers/cache/cache64/fsl_cache.c:337:6:CACHE64_CleanCacheByRange	56	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/drivers/cache/cache64/fsl_cache.c:400:6:CACHE64_CleanInvalidateCache	16	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/drivers/cache/cache64/fsl_cache.c:426:6:CACHE64_CleanInvalidateCacheByRange	56	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/drivers/cache/cache64/fsl_cache.c:490:6:CACHE64_EnableWriteBuffer	16	static

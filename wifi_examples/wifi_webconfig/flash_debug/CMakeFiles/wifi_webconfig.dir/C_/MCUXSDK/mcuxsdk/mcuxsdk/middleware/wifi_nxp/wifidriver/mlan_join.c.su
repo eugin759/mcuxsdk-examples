@@ -1,0 +1,12 @@
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/incl/mlan_main.h:3079:14:wlan_strlen	24	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/mlan_join.c:56:12:wlan_cmd_append_generic_ie	24	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/mlan_join.c:125:20:wlan_get_common_rates	56	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/mlan_join.c:263:13:wlan_setup_rates_from_bssdesc	56	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/mlan_join.c:308:12:wlan_update_rsn_ie	128	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/mlan_join.c:796:13:wlan_cmd_append_pwe_tlv	32	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/mlan_join.c:834:13:wlan_cmd_append_rsno_tlv	40	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/mlan_join.c:915:13:wlan_cmd_802_11_associate	136	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/mlan_join.c:1406:13:wlan_ret_802_11_associate	56	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/mlan_join.c:1619:13:wlan_associate	48	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/mlan_join.c:1659:6:wlan_band_to_radio_type	24	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/wifidriver/mlan_join.c:1684:6:wlan_use_non_default_ht_vht_cap	16	static

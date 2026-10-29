@@ -1,0 +1,12 @@
+C:/MCUXSDK/mcuxsdk/mcuxsdk/devices/Wireless/RW/RW612/drivers/fsl_io_mux.h:1634:20:IO_MUX_SetPinMux	32	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/examples/wifi_examples/wifi_webconfig/webconfig.c:88:12:CGI_HandleGet	80	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/examples/wifi_examples/wifi_webconfig/webconfig.c:137:12:CGI_HandlePost	512	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/examples/wifi_examples/wifi_webconfig/webconfig.c:269:12:CGI_HandleReset	104	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/examples/wifi_examples/wifi_webconfig/webconfig.c:313:12:CGI_HandleStatus	360	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/examples/wifi_examples/wifi_webconfig/webconfig.c:361:13:LinkStatusChangeCallback	16	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/examples/wifi_examples/wifi_webconfig/webconfig.c:382:13:main_task	192	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/examples/wifi_examples/wifi_webconfig/webconfig.c:490:17:SetBoardToAP	32	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/examples/wifi_examples/wifi_webconfig/webconfig.c:518:17:CleanUpAP	8	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/examples/wifi_examples/wifi_webconfig/webconfig.c:535:17:SetBoardToClient	32	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/examples/wifi_examples/wifi_webconfig/webconfig.c:631:17:CleanUpClient	8	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/examples/wifi_examples/wifi_webconfig/webconfig.c:655:5:main	40	static

@@ -1,0 +1,16 @@
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/incl/port/net/wm_net.h:665:20:net_inet_ntoa	24	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/components/edgefast_wifi/source/wpl_nxp.c:96:12:WPL_map_event	16	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/components/edgefast_wifi/source/wpl_nxp.c:133:5:wlan_event_callback	24	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/components/edgefast_wifi/source/wpl_nxp.c:223:11:WPL_Init	16	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/components/edgefast_wifi/source/wpl_nxp.c:264:11:WPL_Start	40	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/components/edgefast_wifi/source/wpl_nxp.c:312:11:WPL_Stop	16	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/components/edgefast_wifi/source/wpl_nxp.c:339:11:WPL_Start_AP	728	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/components/edgefast_wifi/source/wpl_nxp.c:455:11:WPL_Stop_AP	32	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/components/edgefast_wifi/source/wpl_nxp.c:517:12:WLP_process_results	264	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/components/edgefast_wifi/source/wpl_nxp.c:614:7:WPL_Scan	32	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/components/edgefast_wifi/source/wpl_nxp.c:655:11:WPL_AddNetworkWithSecurity	728	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/components/edgefast_wifi/source/wpl_nxp.c:740:11:WPL_AddNetwork	24	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/components/edgefast_wifi/source/wpl_nxp.c:745:11:WPL_RemoveNetwork	32	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/components/edgefast_wifi/source/wpl_nxp.c:773:11:WPL_Join	40	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/components/edgefast_wifi/source/wpl_nxp.c:844:11:WPL_Leave	32	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/components/edgefast_wifi/source/wpl_nxp.c:899:11:WPL_GetIP	112	static

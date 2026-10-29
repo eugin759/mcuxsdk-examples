@@ -1,0 +1,5 @@
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/dhcpd/dhcp-server-main.c:61:13:dhcp_server_err_str	24	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/dhcpd/dhcp-server-main.c:78:5:dhcp_server_start	16	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/dhcpd/dhcp-server-main.c:83:5:dhcp_server_start_ex	32	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/dhcpd/dhcp-server-main.c:131:6:dhcp_server_stop	8	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/wifi_nxp/dhcpd/dhcp-server-main.c:136:6:dhcp_server_stop_ex	24	static
