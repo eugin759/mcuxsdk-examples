@@ -26,6 +26,10 @@
 		},
 		{
 			"isExternal" : true,
+			"path" : "C:/MCUXSDK/mcuxsdk/mcuxsdk/cmake/extension/default_tool_version.cmake"
+		},
+		{
+			"isExternal" : true,
 			"path" : "C:/MCUXSDK/mcuxsdk/mcuxsdk/cmake/extension/python.cmake"
 		},
 		{

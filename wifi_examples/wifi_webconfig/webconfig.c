@@ -11,6 +11,7 @@
  * Includes
  ******************************************************************************/
 #include "lwip/tcpip.h"
+#include "lwip/apps/mdns.h"
 #include "board.h"
 #include "app.h"
 #include "wpl.h"
@@ -25,6 +26,7 @@
 #include "cred_flash_storage.h"
 #include "mqtt_freertos.h"
 
+
 #include <stdio.h>
 
 #include "FreeRTOS.h"
@@ -36,6 +38,9 @@ static int CGI_HandleGet(HTTPSRV_CGI_REQ_STRUCT *param);
 static int CGI_HandlePost(HTTPSRV_CGI_REQ_STRUCT *param);
 static int CGI_HandleReset(HTTPSRV_CGI_REQ_STRUCT *param);
 static int CGI_HandleStatus(HTTPSRV_CGI_REQ_STRUCT *param);
+static int CGI_HandleControl(HTTPSRV_CGI_REQ_STRUCT *param);
+static void mdns_task(void *arg);
+static void request_mdns_announce(void);
 
 static uint32_t SetBoardToClient();
 static uint32_t SetBoardToAP();
@@ -69,6 +74,7 @@ const HTTPSRV_CGI_LINK_STRUCT cgi_lnk_tbl[] = {
     {"get", CGI_HandleGet},
     {"post", CGI_HandlePost},
     {"status", CGI_HandleStatus},
+    {"control", CGI_HandleControl},
     {0, 0} // DO NOT REMOVE - last item - end of table
 };
 
@@ -77,6 +83,199 @@ const HTTPSRV_CGI_LINK_STRUCT cgi_lnk_tbl[] = {
  ******************************************************************************/
 struct board_state_variables g_BoardState;
 static bool mqtt_started;
+static TaskHandle_t mdnsTaskHandle;
+
+#define SMARTBULB_GPIO_PORT 0U
+#define SMARTBULB_GPIO_PIN  1U
+#define SMARTBULB_MDNS_HOSTNAME "smartbulb"
+#define SMARTBULB_MDNS_SERVICE_NAME "SmartBulb1_myProject"
+#define SMARTBULB_MDNS_SERVICE_TYPE "_smartbulb"
+#define SMARTBULB_HTTP_PORT 80U
+
+static bool query_get_value(const char *query, const char *key, char *value, size_t value_size)
+{
+    size_t key_length = strlen(key);
+
+    if ((query == NULL) || (value_size == 0U))
+    {
+        return false;
+    }
+
+    value[0] = '\0';
+    while (*query != '\0')
+    {
+        const char *end = strchr(query, '&');
+        size_t segment_length = (end != NULL) ? (size_t)(end - query) : strlen(query);
+
+        if ((segment_length > key_length) && (memcmp(query, key, key_length) == 0) &&
+            (query[key_length] == '='))
+        {
+            size_t value_length = segment_length - key_length - 1U;
+
+            if (value_length >= value_size)
+            {
+                return false;
+            }
+
+            memcpy(value, query + key_length + 1U, value_length);
+            value[value_length] = '\0';
+            return true;
+        }
+
+        if (end == NULL)
+        {
+            break;
+        }
+        query = end + 1;
+    }
+
+    return false;
+}
+
+static int CGI_HandleControl(HTTPSRV_CGI_REQ_STRUCT *param)
+{
+    HTTPSRV_CGI_RES_STRUCT response = {0};
+    char state[4];
+    char *body;
+
+    response.ses_handle = param->ses_handle;
+    response.content_type = HTTPSRV_CONTENT_TYPE_PLAIN;
+
+    if (param->request_method != HTTPSRV_REQ_GET)
+    {
+        response.status_code = HTTPSRV_CODE_METHOD_NOT_ALLOWED;
+        body = "{\"error\":\"method_not_allowed\"}";
+    }
+    else if (!query_get_value(param->query_string, "state", state, sizeof(state)))
+    {
+        response.status_code = HTTPSRV_CODE_BAD_REQ;
+        body = "{\"error\":\"state_required\"}";
+    }
+    else if (strcmp(state, "ON") == 0)
+    {
+        GPIO_PinWrite(GPIO, SMARTBULB_GPIO_PORT, SMARTBULB_GPIO_PIN, 0U);
+        response.status_code = HTTPSRV_CODE_OK;
+        body = "{\"state\":\"ON\"}";
+    }
+    else if (strcmp(state, "OFF") == 0)
+    {
+        GPIO_PinWrite(GPIO, SMARTBULB_GPIO_PORT, SMARTBULB_GPIO_PIN, 1U);
+        response.status_code = HTTPSRV_CODE_OK;
+        body = "{\"state\":\"OFF\"}";
+    }
+    else
+    {
+        response.status_code = HTTPSRV_CODE_BAD_REQ;
+        body = "{\"error\":\"state_must_be_ON_or_OFF\"}";
+    }
+
+    response.data = body;
+    response.data_length = strlen(body);
+    response.content_length = response.data_length;
+    HTTPSRV_cgi_write(&response);
+
+    return response.content_length;
+}
+
+static void request_mdns_announce(void)
+{
+    if (mdnsTaskHandle != NULL)
+    {
+        xTaskNotifyGive(mdnsTaskHandle);
+    }
+}
+
+static void mdns_task(void *arg)
+{
+    bool responder_initialized = false;
+    struct netif *registered_netif = NULL;
+    bool service_registered = false;
+    s8_t service_id = ERR_VAL;
+
+    LWIP_UNUSED_ARG(arg);
+
+    for (;;)
+    {
+        err_t error = ERR_OK;
+        bool should_advertise;
+
+        (void)ulTaskNotifyTake(pdTRUE, portMAX_DELAY);
+
+        should_advertise = (g_BoardState.wifiState == WIFI_STATE_CLIENT) && g_BoardState.connected;
+
+        LOCK_TCPIP_CORE();
+
+        if (!should_advertise)
+        {
+            if (registered_netif != NULL)
+            {
+                error = mdns_resp_remove_netif(registered_netif);
+                if (error == ERR_OK)
+                {
+                    registered_netif = NULL;
+                    service_registered = false;
+                    service_id = ERR_VAL;
+                }
+            }
+        }
+        else if (netif_default == NULL)
+        {
+            error = ERR_IF;
+        }
+        else
+        {
+            if (!responder_initialized)
+            {
+                mdns_resp_init();
+                responder_initialized = true;
+            }
+
+            if ((registered_netif != NULL) && (registered_netif != netif_default))
+            {
+                error = mdns_resp_remove_netif(registered_netif);
+                if (error == ERR_OK)
+                {
+                    registered_netif = NULL;
+                    service_registered = false;
+                    service_id = ERR_VAL;
+                }
+            }
+
+            if ((error == ERR_OK) && (registered_netif == NULL))
+            {
+                error = mdns_resp_add_netif(netif_default, SMARTBULB_MDNS_HOSTNAME);
+                if (error == ERR_OK)
+                {
+                    registered_netif = netif_default;
+                }
+            }
+
+            if ((error == ERR_OK) && (registered_netif != NULL) && !service_registered)
+            {
+                service_id = mdns_resp_add_service(registered_netif, SMARTBULB_MDNS_SERVICE_NAME,
+                                                   SMARTBULB_MDNS_SERVICE_TYPE, DNSSD_PROTO_TCP,
+                                                   SMARTBULB_HTTP_PORT, NULL, NULL);
+                service_registered = (service_id >= 0);
+                if (!service_registered)
+                {
+                    error = (err_t)service_id;
+                }
+            }
+
+            if ((error == ERR_OK) && (registered_netif == netif_default) && service_registered)
+            {
+                mdns_resp_announce(registered_netif);
+            }
+        }
+
+        UNLOCK_TCPIP_CORE();
+
+        if (error != ERR_OK)
+        {
+            PRINTF("[!] mDNS update failed: %d\r\n", error);
+        }
+    }
+}
 
 /*******************************************************************************
  * Code
@@ -299,6 +498,7 @@ static int CGI_HandleReset(HTTPSRV_CGI_REQ_STRUCT *param)
     {
         g_BoardState.wifiState = WIFI_STATE_AP;
         g_BoardState.connected = false;
+        request_mdns_announce();
 
         vTaskResume(g_BoardState.mainTask);
     }
@@ -366,6 +566,7 @@ static void LinkStatusChangeCallback(bool linkState)
         /* DO SOMETHING */
         PRINTF("-------- LINK LOST --------\r\n");
         g_BoardState.connected = false;
+        request_mdns_announce();
         vTaskResume(g_BoardState.mainTask);
     }
     else
@@ -373,6 +574,10 @@ static void LinkStatusChangeCallback(bool linkState)
         /* -------- LINK REESTABLISHED -------- */
         /* DO SOMETHING */
         PRINTF("-------- LINK REESTABLISHED --------\r\n");
+        if ((g_BoardState.wifiState == WIFI_STATE_CLIENT) && g_BoardState.connected)
+        {
+            request_mdns_announce();
+        }
     }
 }
 
@@ -442,6 +647,13 @@ static void main_task(void *arg)
 
     WC_DEBUG("[i] Successfully initialized Wi-Fi module\r\n");
 
+    if (xTaskCreate(mdns_task, "mdns_task", 768, NULL, HTTPD_PRIORITY, &mdnsTaskHandle) != pdPASS)
+    {
+        PRINTF("[!] mDNS Task creation failed.\r\n");
+        while (1)
+            __BKPT(0);
+    }
+
     /* Start WebServer */
     if (xTaskCreate(http_srv_task, "http_srv_task", HTTPD_STACKSIZE, NULL, HTTPD_PRIORITY, NULL) != pdPASS)
     {
@@ -506,6 +718,7 @@ static uint32_t SetBoardToAP()
             __BKPT(0);
     }
     g_BoardState.connected = true;
+    request_mdns_announce();
 
     char ip[16];
     WPL_GetIP(ip, 0);
@@ -588,6 +801,7 @@ static uint32_t SetBoardToClient()
                         {
                             // Reset back to AP mode
                             g_BoardState.wifiState = WIFI_STATE_AP;
+                            request_mdns_announce();
                             return 0;
                         }
                         break;
@@ -623,6 +837,10 @@ static uint32_t SetBoardToClient()
                 }
             }
         }
+    }
+    if (g_BoardState.connected)
+    {
+        request_mdns_announce();
     }
     return 0;
 }

@@ -234,7 +234,7 @@ void sys_mark_tcpip_thread(void);
  * MEMP_NUM_SYS_TIMEOUT: the number of simulateously active timeouts.
  * (requires NO_SYS==0)
  */
-#define MEMP_NUM_SYS_TIMEOUT 12
+#define MEMP_NUM_SYS_TIMEOUT 24
 
 /**
  * MEMP_NUM_NETBUF: the number of struct netbufs.
@@ -423,6 +423,8 @@ void sys_mark_tcpip_thread(void);
  * LWIP_IGMP==1: Turn on IGMP module.
  */
 #define LWIP_IGMP 1
+#define LWIP_MDNS_RESPONDER 1
+#define LWIP_NUM_NETIF_CLIENT_DATA 1
 
 /**
  * LWIP_SO_SNDTIMEO==1: Enable send timeout for sockets/netconns and

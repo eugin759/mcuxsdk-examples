@@ -9626,7 +9626,7 @@
 				{
 					"directoryIndex" : 3,
 					"id" : "footprint::@7f73aa44d57b7279e1d5",
-					"jsonFile" : "target-footprint-flash_debug-39800fb4c70c15eea98c.json",
+					"jsonFile" : "target-footprint-flash_debug-c9c25aaba34f74e79912.json",
 					"name" : "footprint",
 					"projectIndex" : 0
 				},
@@ -9717,7 +9717,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "wifi_webconfig::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-wifi_webconfig-flash_debug-5f927cb1879dbe1d639e.json",
+					"jsonFile" : "target-wifi_webconfig-flash_debug-de6063e1e7c47e42aea5.json",
 					"name" : "wifi_webconfig",
 					"projectIndex" : 0
 				}

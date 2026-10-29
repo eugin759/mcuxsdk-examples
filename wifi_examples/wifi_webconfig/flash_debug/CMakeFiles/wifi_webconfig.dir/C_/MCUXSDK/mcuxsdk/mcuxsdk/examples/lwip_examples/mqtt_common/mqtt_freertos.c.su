@@ -9,6 +9,6 @@ C:/MCUXSDK/mcuxsdk/mcuxsdk/examples/lwip_examples/mqtt_common/mqtt_freertos.c:26
 C:/MCUXSDK/mcuxsdk/mcuxsdk/examples/lwip_examples/mqtt_common/mqtt_freertos.c:279:13:disconnect_from_mqtt	16	static
 C:/MCUXSDK/mcuxsdk/mcuxsdk/examples/lwip_examples/mqtt_common/mqtt_freertos.c:291:13:mqtt_message_published_cb	24	static
 C:/MCUXSDK/mcuxsdk/mcuxsdk/examples/lwip_examples/mqtt_common/mqtt_freertos.c:329:13:publish_message	56	static
-C:/MCUXSDK/mcuxsdk/mcuxsdk/examples/lwip_examples/mqtt_common/mqtt_freertos.c:386:13:app_thread	32	static
-C:/MCUXSDK/mcuxsdk/mcuxsdk/examples/lwip_examples/mqtt_common/mqtt_freertos.c:483:13:generate_client_id	56	static
-C:/MCUXSDK/mcuxsdk/mcuxsdk/examples/lwip_examples/mqtt_common/mqtt_freertos.c:543:6:mqtt_freertos_run_thread	24	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/examples/lwip_examples/mqtt_common/mqtt_freertos.c:382:13:app_thread	32	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/examples/lwip_examples/mqtt_common/mqtt_freertos.c:482:13:generate_client_id	56	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/examples/lwip_examples/mqtt_common/mqtt_freertos.c:542:6:mqtt_freertos_run_thread	24	static

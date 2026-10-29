@@ -22,6 +22,7 @@ C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/lwip/src/core/netif.c:1131:1:netif_loop_ou
 C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/lwip/src/core/netif.c:1237:1:netif_loop_output_ipv4	24	static
 C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/lwip/src/core/netif.c:1246:1:netif_loop_output_ipv6	24	static
 C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/lwip/src/core/netif.c:1262:1:netif_poll	32	static
+C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/lwip/src/core/netif.c:1351:1:netif_alloc_client_data_id	16	static
 C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/lwip/src/core/netif.c:1378:1:netif_ip6_addr_set	40	static
 C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/lwip/src/core/netif.c:1400:1:netif_ip6_addr_set_parts	88	static
 C:/MCUXSDK/mcuxsdk/mcuxsdk/middleware/lwip/src/core/netif.c:1457:1:netif_ip6_addr_set_state	32	static

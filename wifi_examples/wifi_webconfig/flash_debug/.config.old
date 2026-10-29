@@ -395,7 +395,8 @@ CONFIG_MCUX_COMPONENT_component.lists=y
 CONFIG_MCUX_COMPONENT_utility.str=y
 # CONFIG_MCUX_COMPONENT_utility.format is not set
 CONFIG_MCUX_DEPENDENCY_COMPONENT_SILICON_ID_RW610=y
-# CONFIG_MCUX_COMPONENT_component.silicon_id is not set
+CONFIG_MCUX_COMPONENT_component.silicon_id=y
+CONFIG_MCUX_COMPONENT_component.silicon_id_rw610=y
 # CONFIG_MCUX_COMPONENT_utility.notifier is not set
 # end of Utility
 
@@ -1258,7 +1259,7 @@ CONFIG_MCUX_COMPONENT_middleware.lwip.sys_arch.dynamic=y
 # CONFIG_MCUX_COMPONENT_middleware.lwip.apps.lwiperf is not set
 CONFIG_MCUX_COMPONENT_middleware.lwip.apps.httpsrv=y
 # CONFIG_MCUX_COMPONENT_middleware.lwip.apps.httpssrv is not set
-# CONFIG_MCUX_COMPONENT_middleware.lwip.apps.mqtt is not set
+CONFIG_MCUX_COMPONENT_middleware.lwip.apps.mqtt=y
 # CONFIG_MCUX_COMPONENT_middleware.lwip.apps.httpd.support is not set
 # CONFIG_MCUX_COMPONENT_middleware.lwip.apps.httpd is not set
 # CONFIG_MCUX_COMPONENT_middleware.lwip.apps.mdns is not set

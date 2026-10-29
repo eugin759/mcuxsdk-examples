@@ -15,6 +15,15 @@ The site allows the user to clear the credentials from the flash memory and rese
 
 After the device successfully joins a Wi-Fi network in client mode, the demo starts the MQTT client used by the `wifi_mqtt` example. It uses the Wi-Fi credentials configured by this web interface, then connects to the broker and applies the example's existing topic subscription, publication, button, and LED behavior. Broker, port, and MQTT topics are configured in `examples/lwip_examples/mqtt_common/mqtt_freertos.c`. The example's default broker uses unencrypted MQTT; use it for testing only, not for sensitive or production traffic.
 
+While connected to a Wi-Fi network in client/station mode, the board advertises the DNS-SD service `_smartbulb._tcp.local.` with the instance name `SmartBulb1_myProject` and hostname `smartbulb.local`. The local SoftAP continues to provide the existing Wi-Fi configuration HTTP server and does not advertise this service. To control the LED, connect the computer running the dashboard to the same Wi-Fi network, discover `_smartbulb._tcp.local.` with a DNS-SD browser or Python library such as `zeroconf`, then send HTTP requests to the resolved address on port 80:
+
+```text
+GET http://smartbulb.local/control?state=ON
+GET http://smartbulb.local/control?state=OFF
+```
+
+The `/control` endpoint sets GPIO0 pin 1 high for `ON` and low for `OFF`. It returns HTTP 400 for a missing or unsupported state and HTTP 405 for a non-GET request. RGB color control is not enabled because this example does not configure PWM pins.
+
 The source files for the web interface are located in the webui directory. Use the `<path_to_sdk>/middleware/lwip/src/apps/httpsrv/mkfs/mkfs.pl webui` Perl script in order to convert the webui files into the httpsrv_fs_data.c which is used in order to flash the static files onto the board. Make sure the mkfsl.pl script is executed from the same directory where the file httpsrv_fs_data.c and the directory webui are.
 
 Note that Microsoft Internet Explorer is not supported by this webconfig example.
